@@ -24,7 +24,7 @@ function Sidebar() {
       swipeAreaWidth={30}
     >
       <List sx={{ width: 250, pt: (theme) => `${theme.mixins.toolbar.minHeight}px` }}>
-        {Object.values(routes)
+        {/* {Object.values(routes)
           .filter((route) => route.title)
           .map(({ path, title, icon: Icon }) => (
             <ListItem sx={{ p: 0 }} key={path}>
@@ -33,7 +33,7 @@ function Sidebar() {
                 <ListItemText>{title}</ListItemText>
               </ListItemButton>
             </ListItem>
-          ))}
+          ))} */}
       </List>
     </SwipeableDrawer>
   );
